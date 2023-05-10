@@ -1,1 +1,17 @@
-fase1
+-fase1-
+Carga e preparação de dados: o aluno deve ser capaz de trabalhar com arquivos de dados, realizando a sua leitura, filtragem das informações relevantes e armazenamento em estruturas de dados adequadas para consulta.
+ 
+Esta fase inicia a implementação do projeto proposto. O código entregue em linguagem Python deve permitir:
+ 
+a) Leitura do arquivo: os dados do arquivo devem ser carregados para memória e disponibilizados em uma lista de listas/tuplas.  O programa deve exibir a lista com todos os dados dados carregados do arquivo. Não esqueça de exibir na tela também o cabeçalho. Você pode escolher como apresentar esses dados na tela. Além disso, lembre-se de tratar dados incorretos e eliminar inconsistências (dados negativos, por exemplo, não devem ser considerados).
+
+b) Visualização de dados de precipitação: a partir de entradas do usuário, a implementação deve permitir a visualização da precipitação que ocorreu em determinado período. O usuário informa o mês e ano e o programa exibe a precipitação que ocorreu em cada dia do período informado. Não esqueça de validar as entradas do usuário, impedindo meses e anos inválidos. Se o usuário informar em mês o valor 5 e em ano o valor 1961, você deve exibir o valor de precipitação ocorrido para cada dia dos 31 dias do mês de maio.
+ 
+c) Visualização de dados de temperatura: a implementação deve calcular e exibir a visualização da temperatura máxima que ocorreu nos primeiros 7 dias de cada mês de um ano informado pelo usuário. Hipoteticamente, se o usuário informar o valor 1960, seu programa deve apresentar uma mensagem de erro, pois não há dados de 1960. Com o ano correto, você deve varrer a lista com os dados e localizar o primeiro dia do ano, ou seja, primeiro de janeiro do ano informado. A seguir, encontre a maior temperatura ocorrida nos 7 primeiros dias do mês de janeiro e escreva esta temperatura na tela. Por exemplo, se em janeiro do mês informado ocorreram as seguintes temperaturas máximas nos 7 primeiros dias:  29 (dia 1), 17 (dia 2), 30 (dia 3), 29.5 (dia 4), 19 (dia 5), 21 (dia 6) e 18 (dia 7), seu programa deve ser printar na tela o valor 30. O mesmo deve acontecer para os demais meses do ano.   
+ 
+Observações:
+ 
+•	Para iniciar a fase 1 é necessário assistir as 8 primeiras aulas. É na aula 08 que explicamos como realizar a leitura de arquivo texto e a carga dos dados em listas. No entanto, a manipulação de listas e tuplas está nas aulas anteriores a esta. Por isso, é importante você assistir e realizar as práticas na sequência sugerida. Nossos exemplos são todos com arquivo CSV e não há necessidade de uso de bibliotecas específicas, além das abordadas no curso. Além das funções de manipulação de arquivo, funções strings, como split, serão essenciais para a carga dos dados em lista.  
+•	Crie quantas listas você julgar conveniente e não esqueça de organizar seu código em funções.  
+•	Comente no seu código decisões tomadas quanto ao tratamento dos dados e descarte de valores inválidos. 
+•	Entregue um .zip contendo o seu código em Python, ou seja, zipe seu .py ou .ipynb e poste na plataforma
