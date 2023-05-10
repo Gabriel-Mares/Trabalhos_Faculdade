@@ -1,1 +1,27 @@
+Fase 2 – Análise de dados:
+ 
+O aluno deve ser capaz de realizar análises estatísticas diversas sobre os dados armazenados, por meio da implementação de algoritmos e geração de gráficos para a visualização dos resultados.
+ 
+Esta fase dá seguimento a implementação do projeto proposto, focando na análise dos dados. Utilize obrigatoriamente pelo menos um dicionário (você pode usar outras listas, se for o caso). O código entregue em linguagem Python deve ser capaz de analisar os dados, calcular e responder exibindo na tela:
+ 
+a) Qual é o mês mais chuvoso em todo esse período? Isto é, o mês/ano com maior volume acumulado de chuva, considerando todos os dados do arquivo? Utilize obrigatoriamente um dicionário.
+
+b) Qual a média e a moda da temperatura mínima, umidade do ar e velocidade do vento no mês de agosto (auge do inverno) nos últimos 10 anos (2006 a 2016)? Escreva as informações pedidas para cada mês de agosto (agosto/2006, agosto/2007, ...agosto/2016) e, de forma geral, que engloba todos os meses de agosto desse período de 10 anos.
+
+c) Qual é a década mais chuvosa, isto é, a que possui maior média de chuva acumulada por ano? Para calcular isso, divida o volume de chuva da década pela quantidade de anos (lembre-se que a última década só tem 6 anos - 2011 a 2016). Para realizar esse processamento, use as estruturas de dados que você julgar necessário, tanto em tipo quanto em quantidade.
+
+
+•	  Década 1: 1961 - 1970
+•	  Década 2: 1971 - 1980
+•	  Década 3: 1981 – 1990
+•	  ...
+
+ d) Além disso, você deve gerar um gráfico de barras com as médias acumuladas por década. Não esqueça de rotular os eixos e usar legendas para deixar o seu gráfico informativo e bem elaborado.
+ 
+ 
+Observações:
+ 
+•	Para realizar a fase 2, você terá que assistir a todas as aulas. E da mesma forma, você deve seguir na ordem recomendada. Para ajudar você nesta fase, construímos a aula 10 repleta de soluções de projetos. 
+•	Crie quantas listas você julgar conveniente e não esqueça de organizar seu código em funções.  
+•	Entregue um .zip contendo o seu código em Python, ou seja, zipe seu .py ou .ipynb e poste na plataforma.  
 
